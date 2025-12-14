@@ -78,7 +78,7 @@ function validatePassword(Password) {
 }
 
 
-// checjs for name validity
+// checks for name validity
 function validateFullName(FullName) {
     if (FullName == null){
         return true
