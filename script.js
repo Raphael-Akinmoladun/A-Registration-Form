@@ -40,6 +40,8 @@ while (confirmAge(Age) == false) {
     );
 }
 
+alert("You Have successfully registered!")
+
 // function to confirm age is 18 and above
 function confirmAge(Age) {
     if (Age == null){
@@ -53,9 +55,7 @@ function confirmAge(Age) {
     }
 }
 
-alert("You Have successfully registered!")
-
-
+// checks for password validity
 function validatePassword(Password) {
     if (Password == null){
         return true
@@ -78,6 +78,7 @@ function validatePassword(Password) {
 }
 
 
+// checjs for name validity
 function validateFullName(FullName) {
     if (FullName == null){
         return true
@@ -91,6 +92,7 @@ function validateFullName(FullName) {
 }
 
 
+// checks for email validity
 function validateEmail(Email) {
     if (Email == null){
         return true
